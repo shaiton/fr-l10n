@@ -6,11 +6,11 @@
 # Marc Baudoin <babafou@ensta.fr>, Frédéric Liné <line@MicroNet.fr>, 1996.
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, 1996-2006
 # Christophe Combelles <ccomb@free.fr>, 2009, 2010
-# Kévin Raymond <shaiton@fedoraproject.org>, 2012, 2013, 2015
+# Kévin Raymond <shaiton@fedoraproject.org>, 2012-2016
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU make 4.1\n"
+"Project-Id-Version: GNU make 4.2.1\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2016-06-10 19:03-0400\n"
 "PO-Revision-Date: 2016-08-20 10:27+0200\n"
