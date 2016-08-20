@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU make 4.1\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2016-06-10 19:03-0400\n"
-"PO-Revision-Date: 2015-03-11 22:20+0100\n"
+"PO-Revision-Date: 2016-08-20 10:27+0200\n"
 "Last-Translator: Kévin Raymond <shaiton@fedoraproject.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ar.c:46
 #, c-format
@@ -93,7 +93,7 @@ msgstr "La recette contient trop de lignes (%ud)"
 
 #: commands.c:503
 msgid "*** Break.\n"
-msgstr "*** Break.\n"
+msgstr "*** Arrêt.\n"
 
 #: commands.c:627
 #, c-format
@@ -142,10 +142,8 @@ msgid "# %s: could not be stat'd.\n"
 msgstr "# %s: « stat » impossible.\n"
 
 #: dir.c:1085
-#, fuzzy
-#| msgid "# %s (key %s, mtime %d): could not be opened.\n"
 msgid "# %s (key %s, mtime %I64u): could not be opened.\n"
-msgstr "# %s (clé %s, mtime %d) : ouverture impossible.\n"
+msgstr "# %s (clé %s, mtime %I64u) : ouverture impossible.\n"
 
 #: dir.c:1090
 #, c-format
@@ -158,10 +156,8 @@ msgid "# %s (device %ld, inode %ld): could not be opened.\n"
 msgstr "# %s (périphérique %ld, inode %ld) : ouverture impossible.\n"
 
 #: dir.c:1122
-#, fuzzy
-#| msgid "# %s (key %s, mtime %d): "
 msgid "# %s (key %s, mtime %I64u): "
-msgstr "# %s (périphérique %s, mtime %d) : "
+msgstr "# %s (clé %s, mtime %I64u) : "
 
 #: dir.c:1127
 #, c-format
@@ -414,7 +410,7 @@ msgstr "Nettoyage du fichier de commandes temporaire %s\n"
 
 #: function.c:2215 function.c:2240
 msgid "file: missing filename"
-msgstr ""
+msgstr "file : fichier manquant"
 
 #: function.c:2219 function.c:2250
 #, c-format
@@ -427,26 +423,23 @@ msgid "write: %s: %s"
 msgstr "write : %s : %s"
 
 #: function.c:2230 function.c:2267
-#, fuzzy, c-format
-#| msgid "open: %s: %s"
+#, c-format
 msgid "close: %s: %s"
-msgstr "open : %s : %s"
+msgstr "close : %s : %s"
 
 #: function.c:2243
 msgid "file: too many arguments"
-msgstr ""
+msgstr "file : trop d'arguments"
 
 #: function.c:2262
-#, fuzzy, c-format
-#| msgid "write: %s: %s"
+#, c-format
 msgid "read: %s: %s"
-msgstr "write : %s : %s"
+msgstr "read : %s : %s"
 
 #: function.c:2275
-#, fuzzy, c-format
-#| msgid "Invalid file operation: %s"
+#, c-format
 msgid "file: invalid file operation: %s"
-msgstr "Fichier d'opérations invalide : %s"
+msgstr "file : opération invalide : %s"
 
 #: function.c:2390
 #, c-format
@@ -478,16 +471,14 @@ msgid "Function name too long: %s"
 msgstr "Nom de fonction trop long : %s"
 
 #: function.c:2657
-#, fuzzy, c-format
-#| msgid "Invalid minimum argument count (%d) for function %s"
+#, c-format
 msgid "Invalid minimum argument count (%u) for function %s"
-msgstr "nombre d'arguments insuffisant (%d) pour la fonction « %s »"
+msgstr "Nombre d'arguments insuffisant (%u) pour la fonction %s"
 
 #: function.c:2660
-#, fuzzy, c-format
-#| msgid "Invalid maximum argument count (%d) for function %s"
+#, c-format
 msgid "Invalid maximum argument count (%u) for function %s"
-msgstr "nombre d'arguments insuffisant (%d) pour la fonction « %s »"
+msgstr "Nombre d'arguments excessif (%u) pour la fonction %s"
 
 #: getopt.c:659
 #, c-format
@@ -645,10 +636,9 @@ msgid "<builtin>"
 msgstr "<commande interne>"
 
 #: job.c:510
-#, fuzzy, c-format
-#| msgid "%s[%s] Error %d%s"
+#, c-format
 msgid "%s[%s: %s] Error %d%s"
-msgstr "%s[%s] Erreur %d%s"
+msgstr "%s[%s : %s] Erreur %d%s"
 
 #: job.c:599
 msgid "*** Waiting for unfinished jobs...."
@@ -765,16 +755,14 @@ msgid "make reaped child pid %s, still waiting for pid %s\n"
 msgstr "make a récolté le processus fils pid %s, toujours en attente du pid %s\n"
 
 #: job.c:2275
-#, fuzzy, c-format
-#| msgid "%s: Command not found"
+#, c-format
 msgid "%s: %s: Command not found\n"
-msgstr "%s : commande introuvable"
+msgstr "%s : %s : commande introuvable\n"
 
 #: job.c:2277
-#, fuzzy, c-format
-#| msgid "%s: Command not found"
+#, c-format
 msgid "%s[%u]: %s: Command not found\n"
-msgstr "%s : commande introuvable"
+msgstr "%s[%u] : %s : commande introuvable\n"
 
 #: job.c:2337
 #, c-format
@@ -888,7 +876,7 @@ msgstr ""
 
 #: main.c:353
 msgid "  --eval=STRING               Evaluate STRING as a makefile statement.\n"
-msgstr "  --eval=CHAINE               Evaluer la CHAINE comme une instruction de makefile.\n"
+msgstr "  --eval=CHAINE               Évaluer la CHAÎNE comme une instruction de makefile.\n"
 
 #: main.c:355
 msgid ""
@@ -1337,20 +1325,17 @@ msgid "creating jobs pipe"
 msgstr "création d'un tube pour les tâches"
 
 #: posixos.c:72 posixos.c:227
-#, fuzzy
-#| msgid "creating jobs pipe"
 msgid "duping jobs pipe"
-msgstr "création d'un tube pour les tâches"
+msgstr "duplication d'un tube pour les tâches"
 
 #: posixos.c:78
 msgid "init jobserver pipe"
 msgstr "initialisation du tube du serveur de tâches"
 
 #: posixos.c:90
-#, fuzzy, c-format
-#| msgid "internal error: invalid --jobserver-fds string '%s'"
+#, c-format
 msgid "internal error: invalid --jobserver-auth string '%s'"
-msgstr "erreur interne : chaîne --jobserver-fds incorrecte « %s »"
+msgstr "erreur interne : chaîne --jobserver-auth incorrecte « %s »"
 
 #: posixos.c:93
 #, c-format
@@ -1358,20 +1343,16 @@ msgid "Jobserver client (fds %d,%d)\n"
 msgstr "client Jobserver (fds %d,%d)\n"
 
 #: posixos.c:109
-#, fuzzy
-#| msgid "init jobserver pipe"
 msgid "jobserver pipeline"
-msgstr "initialisation du tube du serveur de tâches"
+msgstr "pipeline du serveur de tâches"
 
 #: posixos.c:154
 msgid "write jobserver"
 msgstr "écriture vers le serveur de tâches"
 
 #: posixos.c:268
-#, fuzzy
-#| msgid "read jobs pipe"
 msgid "pselect jobs pipe"
-msgstr "lecture du tube des processus"
+msgstr "pselect du tube de tâches"
 
 #: posixos.c:279 posixos.c:391
 msgid "read jobs pipe"
@@ -2060,7 +2041,7 @@ msgstr "sys$search() a échoué avec %d\n"
 #: vmsjobs.c:242
 #, c-format
 msgid "-warning, you may have to re-enable CTRL-Y handling from DCL.\n"
-msgstr "-warning, vous pourriez avoir besoin de réactiver le traitement de CTRL-Y par DCL.\n"
+msgstr "-attention, vous pourriez avoir besoin de réactiver le traitement de CTRL-Y par DCL.\n"
 
 #: vmsjobs.c:679
 #, c-format
@@ -2070,7 +2051,7 @@ msgstr "COMMANDE CD INTERNE %s\n"
 #: vmsjobs.c:1228
 #, c-format
 msgid "DCL: %s\n"
-msgstr ""
+msgstr "DCL : %s\n"
 
 #: vmsjobs.c:1288
 #, c-format
@@ -2144,7 +2125,7 @@ msgstr "erreur interne : impossible d'ouvrir la sémaphore « %s » du jobserver : 
 #: w32/w32os.c:84
 #, c-format
 msgid "Jobserver client (semaphore %s)\n"
-msgstr "client Jobserver (semaphore %s)\n"
+msgstr "client jobserver (semaphore %s)\n"
 
 #: w32/w32os.c:125
 #, c-format
