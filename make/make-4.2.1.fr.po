@@ -1,19 +1,19 @@
 # Messages français pour make.
-# Copyright © 2010 Free Software Foundation, Inc.
+# Copyright © 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the make package.
 #
 # 30-juillet-2001, n'avons plus de nouvelle de Marc depuis 5 janvier 1997
 # Marc Baudoin <babafou@ensta.fr>, Frédéric Liné <line@MicroNet.fr>, 1996.
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, 1996-2006
 # Christophe Combelles <ccomb@free.fr>, 2009, 2010
-# Kévin Raymond <shaiton@fedoraproject.org>, 2012-2016
+# Kévin Raymond <shaiton@fedoraproject.org>, 2012-2019
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU make 4.2.1\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2016-06-10 19:03-0400\n"
-"PO-Revision-Date: 2016-08-20 10:27+0200\n"
+"PO-Revision-Date: 2019-06-03 13:25+0200\n"
 "Last-Translator: Kévin Raymond <shaiton@fedoraproject.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: ar.c:46
 #, c-format
@@ -1758,15 +1758,15 @@ msgstr "signal inconnu"
 
 #: signame.c:92
 msgid "Hangup"
-msgstr "Raccroche"
+msgstr "Déconnexion"
 
 #: signame.c:95
 msgid "Interrupt"
-msgstr "Interrompt"
+msgstr "Interruption"
 
 #: signame.c:98
 msgid "Quit"
-msgstr "Quitte"
+msgstr "Sortie"
 
 #: signame.c:101
 msgid "Illegal Instruction"
