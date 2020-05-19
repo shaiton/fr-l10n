@@ -6,14 +6,14 @@
 # Marc Baudoin <babafou@ensta.fr>, Frédéric Liné <line@MicroNet.fr>, 1996.
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, 1996-2006
 # Christophe Combelles <ccomb@free.fr>, 2009, 2010
-# Kévin Raymond <shaiton@fedoraproject.org>, 2012-2016, 2018
+# Kévin Raymond <shaiton@fedoraproject.org>, 2012-2016, 2018, 2020
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU make 4.2.1\n"
+"Project-Id-Version: GNU make 4.2.93\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2020-01-03 02:30-0500\n"
-"PO-Revision-Date: 2018-08-28 17:59+0200\n"
+"PO-Revision-Date: 2020-05-11 19:05+0200\n"
 "Last-Translator: Kévin Raymond <shaiton@fedoraproject.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: src/ar.c:46
 #, c-format
@@ -560,22 +560,19 @@ msgid "can't allocate %lu bytes for hash table: memory exhausted"
 msgstr "impossible d'allouer %lu octets pour la table de hachage : mémoire épuisée"
 
 #: src/hash.c:280
-#, fuzzy, c-format
-#| msgid "Load=%ld/%ld=%.0f%%, "
+#, c-format
 msgid "Load=%lu/%lu=%.0f%%, "
-msgstr "Charge=%ld/%ld=%.0f%%, "
+msgstr "Charge=%lu/%lu=%.0f%%, "
 
 #: src/hash.c:282
-#, fuzzy, c-format
-#| msgid "Rehash=%d, "
+#, c-format
 msgid "Rehash=%u, "
-msgstr "Rehash=%d, "
+msgstr "Rehash=%u, "
 
 #: src/hash.c:283
-#, fuzzy, c-format
-#| msgid "Collisions=%ld/%ld=%.0f%%"
+#, c-format
 msgid "Collisions=%lu/%lu=%.0f%%"
-msgstr "Collisions=%ld/%ld=%.0f%%"
+msgstr "Collisions=%lu/%lu=%.0f%%"
 
 #: src/implicit.c:38
 #, c-format
@@ -593,10 +590,9 @@ msgid "Avoiding implicit rule recursion.\n"
 msgstr "Évitement de récursion dans une règle implicite.\n"
 
 #: src/implicit.c:484
-#, fuzzy, c-format
-#| msgid "Stem too long: '%.*s'.\n"
+#, c-format
 msgid "Stem too long: '%s%.*s'.\n"
-msgstr "Motif trop long : « %.*s ».\n"
+msgstr "Motif trop long : « %s%.*s ».\n"
 
 #: src/implicit.c:490
 #, c-format
@@ -882,10 +878,8 @@ msgstr ""
 "                              Les variables d'environment sont prioritaires sur les makefiles.\n"
 
 #: src/main.c:350
-#, fuzzy
-#| msgid "  --eval=STRING               Evaluate STRING as a makefile statement.\n"
 msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
-msgstr "  --eval=CHAINE               Évaluer la CHAÎNE comme une instruction de makefile.\n"
+msgstr "  -E STRING, --eval=STRING    Évaluer la chaîne STRING comme une instruction de makefile.\n"
 
 #: src/main.c:352
 msgid ""
@@ -976,10 +970,8 @@ msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
 msgstr "  -s, --silent, --quiet       Ne pas répéter les recettes.\n"
 
 #: src/main.c:390
-#, fuzzy
-#| msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
 msgid "  --no-silent                 Echo recipes (disable --silent mode).\n"
-msgstr "  -q, --question              Ne pas exécuter de recette ; le code de sortie indique si la cible est à jour.\n"
+msgstr "  --no-silent                 Répéter les recette (désactive le mode --silent).\n"
 
 #: src/main.c:392
 msgid ""
@@ -1082,10 +1074,9 @@ msgid "warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
 msgstr "avertissement : jobserver n'est pas disponible : utilisation de -j1. Ajouter « + » à la règle parent du make."
 
 #: src/main.c:1617
-#, fuzzy, c-format
-#| msgid "warning: -jN forced in submake: disabling jobserver mode."
+#, c-format
 msgid "warning: -j%d forced in submake: resetting jobserver mode."
-msgstr "AVERTISSEMENT : -jN forcé dans un submake : désactivation du mode serveur de tâches."
+msgstr "avertissement : -j%d forcé dans un submake : réinitialisation du mode jobserver."
 
 #: src/main.c:1781
 #, c-format
@@ -1101,10 +1092,9 @@ msgid "fwrite (temporary file)"
 msgstr "fwrite (fichier temporaire)"
 
 #: src/main.c:2004
-#, fuzzy, c-format
-#| msgid "warning: -jN forced in submake: disabling jobserver mode."
+#, c-format
 msgid "warning: -j%d forced in makefile: resetting jobserver mode."
-msgstr "AVERTISSEMENT : -jN forcé dans un submake : désactivation du mode serveur de tâches."
+msgstr "avertissement : -j%d forcé dans un makefile : réinitialisation du mode jobserver."
 
 #: src/main.c:2068
 #, c-format
@@ -1158,7 +1148,7 @@ msgstr "Réexécution[%u] :"
 
 #: src/main.c:2522
 msgid "unlink (temporary file): "
-msgstr "unlink (fichier temporaire) :"
+msgstr "unlink (fichier temporaire) : "
 
 #: src/main.c:2555
 #, c-format
@@ -1183,7 +1173,7 @@ msgstr "Mise à jour des objectifs cibles....\n"
 #: src/main.c:2610
 #, c-format
 msgid "warning:  Clock skew detected.  Your build may be incomplete."
-msgstr "AVERTISSEMENT : décalage d'horloge détecté. La construction peut être incomplète."
+msgstr "avertissement : décalage d'horloge détecté. La construction peut être incomplète."
 
 #: src/main.c:2804
 #, c-format
@@ -1380,7 +1370,7 @@ msgstr "écriture vers le serveur de tâches"
 #: src/posixos.c:300
 #, c-format
 msgid "job server shut down"
-msgstr ""
+msgstr "le serveur de tâche est arrêté"
 
 #: src/posixos.c:303
 msgid "pselect jobs pipe"
@@ -1443,7 +1433,7 @@ msgstr "%s : echec du chargement"
 #: src/read.c:986
 #, c-format
 msgid "recipe commences before first target"
-msgstr "La recette commence avant la première cible"
+msgstr "la recette commence avant la première cible"
 
 #: src/read.c:1035
 #, c-format
@@ -1528,7 +1518,7 @@ msgstr "les prérequis ne peuvent être définis dans des recettes"
 #: src/read.c:1986
 #, c-format
 msgid "grouped targets must provide a recipe"
-msgstr ""
+msgstr "les cibles groupées doivent fournir une recette"
 
 #: src/read.c:2029
 #, c-format
@@ -1553,7 +1543,7 @@ msgstr "le fichier cible « %s » possède à la fois des entrées : et ::"
 #: src/read.c:2128
 #, c-format
 msgid "target '%s' given more than once in the same rule"
-msgstr "la cible « %s » apparaît plus d'une fois dans la même règle."
+msgstr "la cible « %s » apparaît plus d'une fois dans la même règle"
 
 #: src/read.c:2138
 #, c-format
@@ -1571,20 +1561,19 @@ msgid "*** mixed implicit and normal rules: deprecated syntax"
 msgstr "*** mélange de règles implicites et normales : syntaxe obsolète"
 
 #: src/read.c:2271
-#, fuzzy, c-format
-#| msgid "warning: overriding recipe for target '%s'"
+#, c-format
 msgid "warning: overriding group membership for target '%s'"
-msgstr "avertissement : surchargement de la recette pour la cible « %s »"
+msgstr "avertissement : surchargement des groupes d'appartenance pour la cible « %s »"
 
 #: src/read.c:2636
 #, c-format
 msgid "warning: NUL character seen; rest of line ignored"
-msgstr "AVERTISSEMENT : caractère NUL détecté ; le reste de la ligne est ignoré"
+msgstr "avertissement : caractère NUL détecté ; le reste de la ligne est ignoré"
 
 #: src/remake.c:226
 #, c-format
 msgid "Nothing to be done for '%s'."
-msgstr "rien à faire pour « %s »."
+msgstr "Rien à faire pour « %s »."
 
 #: src/remake.c:227
 #, c-format
@@ -1699,7 +1688,7 @@ msgstr "La dépendance « %s » est plus récente que la cible « %s ».\n"
 #: src/remake.c:764
 #, c-format
 msgid "Prerequisite '%s' is older than target '%s'.\n"
-msgstr "uLa dépendance « %s » est plus ancienne que la cible « %s ».\n"
+msgstr "La dépendance « %s » est plus ancienne que la cible « %s ».\n"
 
 #: src/remake.c:782
 #, c-format
@@ -1793,16 +1782,13 @@ msgstr ""
 "# Pas de règle implicite."
 
 #: src/rule.c:534
-#, fuzzy, c-format
-#| msgid ""
-#| "\n"
-#| "# %u implicit rules, %u"
+#, c-format
 msgid ""
 "\n"
 "# %u implicit rules, %u (%.1f%%) terminal."
 msgstr ""
 "\n"
-"# %u règles implicites, %u"
+"# %u règles implicites, terminal %u (%.1f%%)."
 
 #: src/rule.c:543
 #, c-format
@@ -1984,10 +1970,9 @@ msgstr ""
 "%s strcache utilisé : %lu (%lu) / chaînes = %lu / espace = %lu o / moy = %lu o\n"
 
 #: src/strcache.c:308
-#, fuzzy, c-format
-#| msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %hu B\n"
+#, c-format
 msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %u B\n"
-msgstr "%s tampon courant : taille = %hu o / utilisé = %hu o / nombre = %hu / moy = %hu o\n"
+msgstr "%s tampon courant : taille = %hu o / utilisé = %hu o / nombre = %hu / moy = %u o\n"
 
 #: src/strcache.c:319
 #, c-format
@@ -2075,7 +2060,7 @@ msgid ""
 "# No pattern-specific variable values."
 msgstr ""
 "\n"
-"# pas de valeurs de variable spécifiques au motif"
+"# Pas de valeurs de variable spécifiques au motif."
 
 #: src/variable.c:1776
 #, c-format
@@ -2178,12 +2163,12 @@ msgstr "création de la sémaphore du jobserver : (erreur %ld : %s)"
 #: src/w32/w32os.c:79
 #, c-format
 msgid "internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
-msgstr "erreur interne : impossible d'ouvrir la sémaphore « %s » du jobserver : (erreur %ld : %s) "
+msgstr "erreur interne : impossible d'ouvrir la sémaphore « %s » du jobserver : (erreur %ld : %s)"
 
 #: src/w32/w32os.c:82
 #, c-format
 msgid "Jobserver client (semaphore %s)\n"
-msgstr "client jobserver (semaphore %s)\n"
+msgstr "Client jobserver (semaphore %s)\n"
 
 #: src/w32/w32os.c:123
 #, c-format
