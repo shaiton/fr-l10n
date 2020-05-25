@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: GNU make 4.2.93\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2020-01-03 02:30-0500\n"
-"PO-Revision-Date: 2020-05-11 19:05+0200\n"
+"PO-Revision-Date: 2020-05-25 08:54+0200\n"
 "Last-Translator: Kévin Raymond <shaiton@fedoraproject.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
@@ -2158,12 +2158,12 @@ msgstr "Nombre de clients jobserver limités à %d\n"
 #: src/w32/w32os.c:60
 #, c-format
 msgid "creating jobserver semaphore: (Error %ld: %s)"
-msgstr "création de la sémaphore du jobserver : (erreur %ld : %s)"
+msgstr "création du sémaphore du jobserver : (erreur %ld : %s)"
 
 #: src/w32/w32os.c:79
 #, c-format
 msgid "internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
-msgstr "erreur interne : impossible d'ouvrir la sémaphore « %s » du jobserver : (erreur %ld : %s)"
+msgstr "erreur interne : impossible d'ouvrir le sémaphore « %s » du jobserver : (erreur %ld : %s)"
 
 #: src/w32/w32os.c:82
 #, c-format
@@ -2173,12 +2173,12 @@ msgstr "Client jobserver (semaphore %s)\n"
 #: src/w32/w32os.c:123
 #, c-format
 msgid "release jobserver semaphore: (Error %ld: %s)"
-msgstr "libération de la sémaphore jobserver : erreur (%ld : %s)"
+msgstr "libération du sémaphore jobserver : erreur (%ld : %s)"
 
 #: src/w32/w32os.c:194
 #, c-format
 msgid "semaphore or child process wait: (Error %ld: %s)"
-msgstr "attente de la sémaphore ou du processus fils : (erreur %ld : %s)"
+msgstr "attente du sémaphore ou du processus fils : (erreur %ld : %s)"
 
 #~ msgid "%s: %s: Command not found\n"
 #~ msgstr "%s : %s : commande introuvable\n"
